@@ -48,29 +48,16 @@ Caso tenha seeders específicos para rodar, você pode especificar o seeder dire
 php artisan db:seed --class=SeederName
 ```
 
-### 6. Gerar a Chave de Aplicação
-Caso ainda não tenha gerado a chave de aplicação, execute o comando:
-
-```bash
-php artisan key:generate
-```
-
 Isso irá gerar a chave para encriptação de sessões e outras funcionalidades.
 
-### 7. Compilar os Assets
+### 6. Compilar os Assets
 Se o seu projeto utiliza frontend com Vue.js ou outras tecnologias, compile os assets:
 
 ```bash
 npm run dev
 ```
 
-Para produção, você pode rodar:
-
-```bash
-npm run prod
-```
-
-### 8. Iniciar o Servidor Laravel
+### 7. Iniciar o Servidor Laravel
 Por fim, inicie o servidor local do Laravel:
 
 ```bash
